@@ -1,0 +1,14 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	ambience			\desktop_master_mixer\Master Audio Bus\EFFECTS\ambience	
+	1557941045	characters			\desktop_master_mixer\Master Audio Bus\EFFECTS\characters	
+	1942696649	EFFECTS			\desktop_master_mixer\Master Audio Bus\EFFECTS	
+	2822202625	scene_obj			\desktop_master_mixer\Master Audio Bus\EFFECTS\scene_obj	obj - objects
+	3313685232	VOICES			\desktop_master_mixer\Master Audio Bus\VOICES	
+	3803692087	Master Audio Bus			\desktop_master_mixer\Master Audio Bus	
+	3893417221	weapon			\desktop_master_mixer\Master Audio Bus\EFFECTS\weapon	
+	3991942870	MUSIC			\desktop_master_mixer\Master Audio Bus\MUSIC	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

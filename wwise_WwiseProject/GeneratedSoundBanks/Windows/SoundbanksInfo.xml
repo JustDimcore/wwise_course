@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CD84E545-16C6-E100-2DC7-3594C0514DC5}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="85412153" Name="ambience"/>
+				<Bus Id="1557941045" Name="characters"/>
+				<Bus Id="1942696649" Name="EFFECTS"/>
+				<Bus Id="2822202625" Name="scene_obj"/>
+				<Bus Id="3313685232" Name="VOICES"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3893417221" Name="weapon"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="27746551" Name="outdoor_indoor">
+					<Switches>
+						<Switch Id="144697359" Name="outdoor"/>
+						<Switch Id="340398852" Name="indoor"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2381450613" Name="footsteps_type">
+					<Switches>
+						<Switch Id="712161704" Name="run"/>
+						<Switch Id="2108779966" Name="walk"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4064446173" Name="surface_type">
+					<Switches>
+						<Switch Id="2058049674" Name="wood"/>
+						<Switch Id="4169408098" Name="asphalt"/>
+						<Switch Id="4248645337" Name="grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EC71B75B-E6CF-E758-C7B2-1543B98A2A19}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="33180340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_wood_01.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="47269789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_05.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="81321587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\sub_ak_47_v1_02.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/sub_ak_47_v1_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="104714568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\body_ak_47_v1_03.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="119363725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_06.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="129437982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\mech_ak_47_v1_02.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/mech_ak_47_v1_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="159168199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\mech_ak_47_v1_05.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/mech_ak_47_v1_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="167176446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\body_ak_47_v1_05.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="180534616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_grass_02.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_grass_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="188845366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\sub_ak_47_v1_04.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/sub_ak_47_v1_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="192265720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_04.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="209355282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_outdoor_ak_47_v1_03.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_outdoor_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="214609875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\mech_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/mech_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="222653756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\sub_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/sub_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="232533773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_03.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="242632580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_01.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="266321796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience\city\general_city_indoor_amb.wav</ShortName>
+					<CachePath>SFX/ambience/city/general_city_indoor_amb_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="288255449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_grass_04.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_grass_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="292046680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_wood_05.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="296276246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_outdoor_ak_47_v1_04.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_outdoor_ak_47_v1_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="324558802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_indoor_ak_47_v1_03.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_indoor_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="326660389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_wood_02.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="426316787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_wood_03.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="432290599" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\sub_ak_47_v1_05.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/sub_ak_47_v1_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="480353992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\body_ak_47_v1_04.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="488683552" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_grass_03.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_grass_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="541029042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_outdoor_ak_47_v1_02.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_outdoor_ak_47_v1_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="554178578" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>scene_obj\fire.wav</ShortName>
+					<CachePath>SFX/scene_obj/fire_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="569613002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_02.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="610045618" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\body_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="628606735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\aftershot_ak_47_v1_03.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/aftershot_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="725303012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_wood_06.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="734349997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_grass_05.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_grass_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="748003061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\sub_ak_47_v1_03.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/sub_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="805859625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_indoor_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_indoor_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="811403152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\firstshot_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/firstshot_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="838791404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\aftershot_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/aftershot_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="873395219" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_grass_01.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_grass_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="887597299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character\footsteps\walk\fs_walk_wood_04.wav</ShortName>
+					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="888739114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\aftershot_ak_47_v1_02.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/aftershot_ak_47_v1_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="897066073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_indoor_ak_47_v1_02.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_indoor_ak_47_v1_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="908405094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_indoor_ak_47_v1_05.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_indoor_ak_47_v1_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="942742773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\mech_ak_47_v1_03.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/mech_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="943807816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\mech_ak_47_v1_04.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/mech_ak_47_v1_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="959326426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_indoor_ak_47_v1_04.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_indoor_ak_47_v1_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1006631109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience\city\general_city_outdoor_amb.wav</ShortName>
+					<CachePath>SFX/ambience/city/general_city_outdoor_amb_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1049358961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_outdoor_ak_47_v1_05.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_outdoor_ak_47_v1_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1061285582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\body_ak_47_v1_02.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1068802677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>weapon\ak_47\tail_outdoor_ak_47_v1_01.wav</ShortName>
+					<CachePath>SFX/weapon/ak_47/tail_outdoor_ak_47_v1_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="70686190" Name="amb_city_start" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="27746551" Id="144697359" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1006631109"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="27746551" Id="340398852"/>
+							<MediaRefs>
+								<MediaRef Id="266321796"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="513902030" Name="amb_city_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3877847155" Name="bonfire_start" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="554178578"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3432884657" Name="bonfire_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2385628198" Name="footsteps" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.6960673">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2381450613" Id="2108779966" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+									<MediaRefs>
+										<MediaRef Id="33180340"/>
+										<MediaRef Id="292046680"/>
+										<MediaRef Id="326660389"/>
+										<MediaRef Id="426316787"/>
+										<MediaRef Id="725303012"/>
+										<MediaRef Id="887597299"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4169408098" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="47269789"/>
+										<MediaRef Id="119363725"/>
+										<MediaRef Id="192265720"/>
+										<MediaRef Id="232533773"/>
+										<MediaRef Id="242632580"/>
+										<MediaRef Id="569613002"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4248645337"/>
+									<MediaRefs>
+										<MediaRef Id="180534616"/>
+										<MediaRef Id="288255449"/>
+										<MediaRef Id="488683552"/>
+										<MediaRef Id="734349997"/>
+										<MediaRef Id="873395219"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2381450613" Id="712161704"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+									<MediaRefs>
+										<MediaRef Id="33180340"/>
+										<MediaRef Id="292046680"/>
+										<MediaRef Id="326660389"/>
+										<MediaRef Id="426316787"/>
+										<MediaRef Id="725303012"/>
+										<MediaRef Id="887597299"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4169408098" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="47269789"/>
+										<MediaRef Id="119363725"/>
+										<MediaRef Id="192265720"/>
+										<MediaRef Id="232533773"/>
+										<MediaRef Id="242632580"/>
+										<MediaRef Id="569613002"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4248645337"/>
+									<MediaRefs>
+										<MediaRef Id="180534616"/>
+										<MediaRef Id="288255449"/>
+										<MediaRef Id="488683552"/>
+										<MediaRef Id="734349997"/>
+										<MediaRef Id="873395219"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2378719513" Name="light_swtch" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="452547817" Name="stop_all" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2839638432" Name="w_ak_47_fire" MaxAttenuation="250" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="81321587"/>
+						<MediaRef Id="104714568"/>
+						<MediaRef Id="129437982"/>
+						<MediaRef Id="159168199"/>
+						<MediaRef Id="167176446"/>
+						<MediaRef Id="188845366"/>
+						<MediaRef Id="214609875"/>
+						<MediaRef Id="222653756"/>
+						<MediaRef Id="432290599"/>
+						<MediaRef Id="480353992"/>
+						<MediaRef Id="610045618"/>
+						<MediaRef Id="748003061"/>
+						<MediaRef Id="811403152"/>
+						<MediaRef Id="942742773"/>
+						<MediaRef Id="943807816"/>
+						<MediaRef Id="1061285582"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="27746551" Id="144697359" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="209355282"/>
+								<MediaRef Id="296276246"/>
+								<MediaRef Id="541029042"/>
+								<MediaRef Id="1049358961"/>
+								<MediaRef Id="1068802677"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="27746551" Id="340398852"/>
+							<MediaRefs>
+								<MediaRef Id="324558802"/>
+								<MediaRef Id="805859625"/>
+								<MediaRef Id="897066073"/>
+								<MediaRef Id="908405094"/>
+								<MediaRef Id="959326426"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2906147980" Name="w_ak_47_stop" MaxAttenuation="250" DurationType="OneShot" DurationMin="2.0039237" DurationMax="2.1852944">
+					<MediaRefs>
+						<MediaRef Id="628606735"/>
+						<MediaRef Id="838791404"/>
+						<MediaRef Id="888739114"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="27746551" Name="outdoor_indoor">
+					<Switches>
+						<Switch Id="144697359" Name="outdoor"/>
+						<Switch Id="340398852" Name="indoor"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2381450613" Name="footsteps_type">
+					<Switches>
+						<Switch Id="712161704" Name="run"/>
+						<Switch Id="2108779966" Name="walk"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4064446173" Name="surface_type">
+					<Switches>
+						<Switch Id="2058049674" Name="wood"/>
+						<Switch Id="4169408098" Name="asphalt"/>
+						<Switch Id="4248645337" Name="grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{47ACE584-FF79-5C2B-F83B-7DF65F6A6A92}</FileHash>
+</SoundBanksInfo>

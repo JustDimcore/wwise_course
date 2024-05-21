@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1F562519-5285-4E6C-ADD9-0E2B5E57A4F0}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="character_swtch" ID="{1F562519-5285-4E6C-ADD9-0E2B5E57A4F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="footsteps_type" ID="{D95432C9-5D09-483E-9AD5-54BB84598DAD}">
+					<ChildrenList>
+						<Switch Name="run" ID="{4B556FDC-6B85-4A41-A6C4-8D0B8FF6AEA2}"/>
+						<Switch Name="walk" ID="{9ED089CA-19FA-4305-8DCF-5C908F2A3EF5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="surface_type" ID="{D8A51331-5A06-42C7-8E44-2D1FAC7B1089}">
+					<ChildrenList>
+						<Switch Name="grass" ID="{742D55D9-80A4-4F3D-9D43-A5DD80FAFE60}"/>
+						<Switch Name="wood" ID="{1AC8E155-7769-4744-A257-8224445FAC4A}"/>
+						<Switch Name="asphalt" ID="{B0FC3E89-92DC-4D75-BDF4-FDE4A471F3D2}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5AA3FC7-3D8C-42F6-B880-3BA6BB6EF77C}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{B5AA3FC7-3D8C-42F6-B880-3BA6BB6EF77C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="character" ID="{16E22FD5-C071-4095-A8FC-0819858FB063}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="footsteps" ID="{B386152E-74A5-4532-A179-E369606057BD}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="w_ak_47_fire" ID="{2F56B552-8CFF-4887-A9AB-468B6B584753}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bonfire_start" ID="{F7056330-069F-4618-B557-8EFD09E66E1C}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="w_ak_47_stop" ID="{7902BBA2-F931-4432-B5B8-CF92A8D0ABDE}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bonfire_stop" ID="{E1C8E4ED-DB52-471D-8878-266C0BF47A75}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_city_start" ID="{95C66807-7167-46FF-BE05-55340363D4D5}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_city_stop" ID="{966C79D2-3077-4165-AFE0-0ED008E9CA1E}" WorkUnitID="{20D3666D-0A3A-4768-8B38-1F771578F780}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="wood" ID="{1AC8E155-7769-4744-A257-8224445FAC4A}"/>
+						<CurrentSwitchRef Name="outdoor" ID="{BF5E8A4A-9ABF-41B6-845D-300F8D993C5B}"/>
+						<CurrentSwitchRef Name="walk" ID="{9ED089CA-19FA-4305-8DCF-5C908F2A3EF5}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

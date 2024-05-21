@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB15E9FB-7D29-4299-B226-559A185BB0A7}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="world_swtch" ID="{CB15E9FB-7D29-4299-B226-559A185BB0A7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="outdoor_indoor" ID="{1D6C1720-1664-43F1-BD25-FAA3014DD216}">
+					<ChildrenList>
+						<Switch Name="indoor" ID="{BCE43BDB-4136-41B6-A51F-C1640142847B}"/>
+						<Switch Name="outdoor" ID="{BF5E8A4A-9ABF-41B6-845D-300F8D993C5B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

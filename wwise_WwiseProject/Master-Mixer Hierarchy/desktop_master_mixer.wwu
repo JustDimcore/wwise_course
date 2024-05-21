@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC40137F-9DBF-4C4C-B97E-4F39B11F323C}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="desktop_master_mixer" ID="{AC40137F-9DBF-4C4C-B97E-4F39B11F323C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{9D1E14D0-C284-4FD6-BAE0-0E555CA81B7C}" WorkUnitID="{DD483AD9-B358-4E75-9EEE-02DE91918B1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MUSIC" ID="{096E0CC6-8B74-4C29-A168-62A744C2C584}"/>
+						<Bus Name="EFFECTS" ID="{8EDA3D2B-CBFF-4948-ADCE-EC29C65789C2}">
+							<ChildrenList>
+								<Bus Name="characters" ID="{CDCE5156-7AFC-46AD-BA05-AC30CA4A0C54}"/>
+								<Bus Name="weapon" ID="{845F23A1-027B-4A13-A21C-12B7920C842E}"/>
+								<Bus Name="ambience" ID="{4011B472-F1D8-4709-B8EC-5AC07682C698}"/>
+								<Bus Name="scene_obj" ID="{F8494B2D-0D75-4EEB-9FF7-80932178196C}">
+									<Comment>obj - objects</Comment>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VOICES" ID="{7820B24D-70B2-475C-91DE-AE2506EE3E16}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
