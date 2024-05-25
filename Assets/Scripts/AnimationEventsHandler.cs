@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using Invector.vCharacterController;
+using UnityEngine;
 
 public class AnimationEventsHandler : MonoBehaviour
 {
@@ -9,7 +11,37 @@ public class AnimationEventsHandler : MonoBehaviour
     [SerializeField] private AkEvent _stepWalkEvent;
     [SerializeField] private AkEvent _stepWalkRunEvent;
     [SerializeField] private AkEvent _stepRunEvent;
-    
+
+    [SerializeField] private AkSwitch _runSwitch;
+    [SerializeField] private AkSwitch _walkSwitch;
+    [SerializeField] private vThirdPersonAnimator _animator;
+
+    private bool _isLastFrameRunning;
+
+    private void Update()
+    {
+        if (_animator.isSprinting)
+        {
+            if (!_isLastFrameRunning)
+            {
+                _runSwitch.HandleEvent(null);
+                _isLastFrameRunning = true;
+                Debug.Log("Switched to run");
+            }
+            _isLastFrameRunning = true;
+        }
+        else
+        {
+            if (_isLastFrameRunning)
+            {
+                _walkSwitch.HandleEvent(null);
+                _isLastFrameRunning = false;
+                Debug.Log("Switched to walk");
+            }
+            _isLastFrameRunning = false;
+        }
+    }
+
     private void JumpStart()
     {
         Debug.Log("JumpStart anim event");
@@ -36,19 +68,26 @@ public class AnimationEventsHandler : MonoBehaviour
     
     private void StepWalk()
     {
-        Debug.Log("StepWalk anim event");
-        _stepWalkEvent?.HandleEvent(null);
+        Debug.Log(_animator.moveSpeed);
+        if (_animator.moveSpeed is > 0.001f and < 4.1f)
+        {
+            _stepWalkEvent?.HandleEvent(null);
+            Debug.Log("Walk event");
+        }
     }
     
     private void StepWalkRun()
     {
-        Debug.Log("StepWalkRun anim event");
-        _stepWalkRunEvent?.HandleEvent(null);
+        // _stepWalkRunEvent?.HandleEvent(null);
+        // Debug.Log("WalkRun event");
     }
     
     private void StepRun()
     {
-        Debug.Log("StepRun anim event");
-        _stepRunEvent?.HandleEvent(null);
+        if (_animator.moveSpeed >= 4.1f)
+        {
+            _stepRunEvent?.HandleEvent(null);
+            Debug.Log("Run event");
+        }
     }
 }
