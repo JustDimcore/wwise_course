@@ -37,9 +37,9 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="wood" ID="{1AC8E155-7769-4744-A257-8224445FAC4A}"/>
-						<CurrentSwitchRef Name="outdoor" ID="{BF5E8A4A-9ABF-41B6-845D-300F8D993C5B}"/>
-						<CurrentSwitchRef Name="walk" ID="{9ED089CA-19FA-4305-8DCF-5C908F2A3EF5}"/>
+						<CurrentSwitchRef Name="asphalt" ID="{B0FC3E89-92DC-4D75-BDF4-FDE4A471F3D2}"/>
+						<CurrentSwitchRef Name="indoor" ID="{BCE43BDB-4136-41B6-A51F-C1640142847B}"/>
+						<CurrentSwitchRef Name="run" ID="{4B556FDC-6B85-4A41-A6C4-8D0B8FF6AEA2}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

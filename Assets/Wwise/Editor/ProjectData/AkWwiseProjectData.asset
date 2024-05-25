@@ -1,0 +1,845 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5043668250f1614487c1a2040732f13, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 55515393264bc24a898eda70a8320d85
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 55515393264bc24a898eda70a8320d85
+    GuidInternal: 
+    m_lastTime: -8584890272386563628
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 684aa1feab624342ba169d7f09b8310c
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 684aa1feab624342ba169d7f09b8310c
+    GuidInternal: 
+    m_lastTime: -8584871834585524240
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\desktop_master_mixer.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: desktop_master_mixer
+      ObjectType: 12
+      guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+    ParentPath: Master-Mixer Hierarchy\desktop_master_mixer
+    guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+    GuidInternal: 
+    m_lastTime: -8584871834585468992
+    List:
+    - name: ambience
+      guid: 72b41140d8f10947b8ec5ac07682c698
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EFFECTS
+        ObjectType: 2
+        guid: 2b3dda8effcb4849adceec29c65789c2
+      - ElementName: ambience
+        ObjectType: 2
+        guid: 72b41140d8f10947b8ec5ac07682c698
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\EFFECTS\ambience
+    - name: characters
+      guid: 5651cecdfc7aad46ba05ac30ca4a0c54
+      id: 1557941045
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EFFECTS
+        ObjectType: 2
+        guid: 2b3dda8effcb4849adceec29c65789c2
+      - ElementName: characters
+        ObjectType: 2
+        guid: 5651cecdfc7aad46ba05ac30ca4a0c54
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\EFFECTS\characters
+    - name: EFFECTS
+      guid: 2b3dda8effcb4849adceec29c65789c2
+      id: 1942696649
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EFFECTS
+        ObjectType: 2
+        guid: 2b3dda8effcb4849adceec29c65789c2
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\EFFECTS
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus
+    - name: MUSIC
+      guid: c60c6e09748b294ca16862a744c2c584
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MUSIC
+        ObjectType: 2
+        guid: c60c6e09748b294ca16862a744c2c584
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\MUSIC
+    - name: scene_obj
+      guid: 2d4b49f8750deb4e9ff780932178196c
+      id: 2822202625
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EFFECTS
+        ObjectType: 2
+        guid: 2b3dda8effcb4849adceec29c65789c2
+      - ElementName: scene_obj
+        ObjectType: 2
+        guid: 2d4b49f8750deb4e9ff780932178196c
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\EFFECTS\scene_obj
+    - name: VOICES
+      guid: 4db22078b2705c4791deae2506ee3e16
+      id: 3313685232
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: VOICES
+        ObjectType: 2
+        guid: 4db22078b2705c4791deae2506ee3e16
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\VOICES
+    - name: weapon
+      guid: a1235f847b02134aa21c12b7920c842e
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_master_mixer
+        ObjectType: 12
+        guid: 7f1340acbf9d4c4cb97e4f39b11f323c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EFFECTS
+        ObjectType: 2
+        guid: 2b3dda8effcb4849adceec29c65789c2
+      - ElementName: weapon
+        ObjectType: 2
+        guid: a1235f847b02134aa21c12b7920c842e
+      Path: Master-Mixer Hierarchy\desktop_master_mixer\Master Audio Bus\EFFECTS\weapon
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 24916270474daf478c3433f58e61f8c0
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 24916270474daf478c3433f58e61f8c0
+    GuidInternal: 
+    m_lastTime: -8584871834585468992
+    List: []
+  - PhysicalPath: SoundBanks\desktop_sounbanks.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: desktop_sounbanks
+      ObjectType: 12
+      guid: 722aebde7418de45aab798a906420c5d
+    ParentPath: SoundBanks\desktop_sounbanks
+    guid: 722aebde7418de45aab798a906420c5d
+    GuidInternal: 
+    m_lastTime: -8584871834585428756
+    List:
+    - name: Main
+      guid: 3fe99933ad06854faec7dfa1dd40f041
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_sounbanks
+        ObjectType: 12
+        guid: 722aebde7418de45aab798a906420c5d
+      - ElementName: Main
+        ObjectType: 7
+        guid: 3fe99933ad06854faec7dfa1dd40f041
+      Path: SoundBanks\desktop_sounbanks\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 026d60f903e44c4da02a81b0fe9ec350
+    ParentPath: Events\Default Work Unit
+    guid: 026d60f903e44c4da02a81b0fe9ec350
+    GuidInternal: 
+    m_lastTime: -8584871834585626612
+    List: []
+  - PhysicalPath: Events\desktop_events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: desktop_events
+      ObjectType: 12
+      guid: 6d66d3203a0a68478b381f771578f780
+    ParentPath: Events\desktop_events
+    guid: 6d66d3203a0a68478b381f771578f780
+    GuidInternal: 
+    m_lastTime: -8584856678042100488
+    List:
+    - name: amb_city_start
+      guid: 0768c6956771ff46be0555340363d4d5
+      id: 70686190
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: ambience
+        ObjectType: 4
+        guid: 986291e019f31445ac2147a974e31880
+      - ElementName: city
+        ObjectType: 4
+        guid: 6b1c33bfc9e2c540a8716c8413059120
+      - ElementName: amb_city_start
+        ObjectType: 3
+        guid: 0768c6956771ff46be0555340363d4d5
+      Path: Events\desktop_events\ambience\city\amb_city_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: amb_city_stop
+      guid: d2796c9677306541afe00ed008e9ca1e
+      id: 513902030
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: ambience
+        ObjectType: 4
+        guid: 986291e019f31445ac2147a974e31880
+      - ElementName: city
+        ObjectType: 4
+        guid: 6b1c33bfc9e2c540a8716c8413059120
+      - ElementName: amb_city_stop
+        ObjectType: 3
+        guid: d2796c9677306541afe00ed008e9ca1e
+      Path: Events\desktop_events\ambience\city\amb_city_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ambience
+      guid: 986291e019f31445ac2147a974e31880
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: ambience
+        ObjectType: 4
+        guid: 986291e019f31445ac2147a974e31880
+      Path: Events\desktop_events\ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: bonfire
+      guid: 3a0c57b61a55fd498e3911a41d56969a
+      id: 3456720658
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: scene_obj
+        ObjectType: 4
+        guid: e25c71ddfe7c45499510c240d1b33921
+      - ElementName: bonfire
+        ObjectType: 4
+        guid: 3a0c57b61a55fd498e3911a41d56969a
+      Path: Events\desktop_events\scene_obj\bonfire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: bonfire_start
+      guid: 306305f79f061846b5578efd09e66e1c
+      id: 3877847155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: scene_obj
+        ObjectType: 4
+        guid: e25c71ddfe7c45499510c240d1b33921
+      - ElementName: bonfire
+        ObjectType: 4
+        guid: 3a0c57b61a55fd498e3911a41d56969a
+      - ElementName: bonfire_start
+        ObjectType: 3
+        guid: 306305f79f061846b5578efd09e66e1c
+      Path: Events\desktop_events\scene_obj\bonfire\bonfire_start
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: bonfire_stop
+      guid: ede4c8e152db1d478878266c0bf47a75
+      id: 3432884657
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: scene_obj
+        ObjectType: 4
+        guid: e25c71ddfe7c45499510c240d1b33921
+      - ElementName: bonfire
+        ObjectType: 4
+        guid: 3a0c57b61a55fd498e3911a41d56969a
+      - ElementName: bonfire_stop
+        ObjectType: 3
+        guid: ede4c8e152db1d478878266c0bf47a75
+      Path: Events\desktop_events\scene_obj\bonfire\bonfire_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: char
+      guid: e78fd3b9daed8d49ac74da6a2cb2fb53
+      id: 4140304029
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: char
+        ObjectType: 4
+        guid: e78fd3b9daed8d49ac74da6a2cb2fb53
+      Path: Events\desktop_events\char
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: city
+      guid: 6b1c33bfc9e2c540a8716c8413059120
+      id: 3888786832
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: ambience
+        ObjectType: 4
+        guid: 986291e019f31445ac2147a974e31880
+      - ElementName: city
+        ObjectType: 4
+        guid: 6b1c33bfc9e2c540a8716c8413059120
+      Path: Events\desktop_events\ambience\city
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: footsteps
+      guid: 2e1586b3a5743245a179e369606057bd
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: char
+        ObjectType: 4
+        guid: e78fd3b9daed8d49ac74da6a2cb2fb53
+      - ElementName: footsteps
+        ObjectType: 3
+        guid: 2e1586b3a5743245a179e369606057bd
+      Path: Events\desktop_events\char\footsteps
+      maxAttenuation: 100
+      maxDuration: 0.6960673
+      minDuration: 0.47193712
+    - name: light_swtch
+      guid: e897ef9ccdb38d46b889d4ab837e292c
+      id: 2378719513
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: scene_obj
+        ObjectType: 4
+        guid: e25c71ddfe7c45499510c240d1b33921
+      - ElementName: light_swtch
+        ObjectType: 3
+        guid: e897ef9ccdb38d46b889d4ab837e292c
+      Path: Events\desktop_events\scene_obj\light_swtch
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: scene_obj
+      guid: e25c71ddfe7c45499510c240d1b33921
+      id: 2822202625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: scene_obj
+        ObjectType: 4
+        guid: e25c71ddfe7c45499510c240d1b33921
+      Path: Events\desktop_events\scene_obj
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: stop_all
+      guid: c1b89a14a42cea4f9a7a8ad9fd612ad7
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: stop_all
+        ObjectType: 3
+        guid: c1b89a14a42cea4f9a7a8ad9fd612ad7
+      Path: Events\desktop_events\stop_all
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: w_ak_47
+      guid: 9b1e611ac9d13544be7b600bc8bfbe75
+      id: 261400569
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: weapon
+        ObjectType: 4
+        guid: 0e02f305061f6b43a70f3a99ab4dd36b
+      - ElementName: w_ak_47
+        ObjectType: 4
+        guid: 9b1e611ac9d13544be7b600bc8bfbe75
+      Path: Events\desktop_events\weapon\w_ak_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: w_ak_47_fire
+      guid: 52b5562fff8c8748a9ab468b6b584753
+      id: 2839638432
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: weapon
+        ObjectType: 4
+        guid: 0e02f305061f6b43a70f3a99ab4dd36b
+      - ElementName: w_ak_47
+        ObjectType: 4
+        guid: 9b1e611ac9d13544be7b600bc8bfbe75
+      - ElementName: w_ak_47_fire
+        ObjectType: 3
+        guid: 52b5562fff8c8748a9ab468b6b584753
+      Path: Events\desktop_events\weapon\w_ak_47\w_ak_47_fire
+      maxAttenuation: 250
+      maxDuration: -1
+      minDuration: -1
+    - name: w_ak_47_stop
+      guid: a2bb027931f93244b5b8cf92a8d0abde
+      id: 2906147980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: weapon
+        ObjectType: 4
+        guid: 0e02f305061f6b43a70f3a99ab4dd36b
+      - ElementName: w_ak_47
+        ObjectType: 4
+        guid: 9b1e611ac9d13544be7b600bc8bfbe75
+      - ElementName: w_ak_47_stop
+        ObjectType: 3
+        guid: a2bb027931f93244b5b8cf92a8d0abde
+      Path: Events\desktop_events\weapon\w_ak_47\w_ak_47_stop
+      maxAttenuation: 250
+      maxDuration: 2.1852944
+      minDuration: 2.0039237
+    - name: weapon
+      guid: 0e02f305061f6b43a70f3a99ab4dd36b
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: desktop_events
+        ObjectType: 12
+        guid: 6d66d3203a0a68478b381f771578f780
+      - ElementName: weapon
+        ObjectType: 4
+        guid: 0e02f305061f6b43a70f3a99ab4dd36b
+      Path: Events\desktop_events\weapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 42501a33bc5f3c449440161180f19384
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 42501a33bc5f3c449440161180f19384
+    GuidInternal: 
+    m_lastTime: -8584890272392290911
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2afcb3cd3e76df4485deff3b31481c86
+    ParentPath: States\Default Work Unit
+    guid: 2afcb3cd3e76df4485deff3b31481c86
+    GuidInternal: 
+    m_lastTime: -8584890272386594517
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\character_swtch.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: character_swtch
+      ObjectType: 12
+      guid: 1925561f85526c4eadd90e2b5e57a4f0
+    ParentPath: Switches\character_swtch
+    guid: 1925561f85526c4eadd90e2b5e57a4f0
+    GuidInternal: 
+    m_lastTime: -8584871834585382386
+    List:
+    - name: footsteps_type
+      guid: c93254d9095d3e489ad554bb84598dad
+      id: 2381450613
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: character_swtch
+        ObjectType: 12
+        guid: 1925561f85526c4eadd90e2b5e57a4f0
+      - ElementName: footsteps_type
+        ObjectType: 11
+        guid: c93254d9095d3e489ad554bb84598dad
+      Path: Switches\character_swtch\footsteps_type
+      values:
+      - name: run
+        guid: dc6f554b856b414aa6c48d0b8ff6aea2
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: character_swtch
+          ObjectType: 12
+          guid: 1925561f85526c4eadd90e2b5e57a4f0
+        - ElementName: footsteps_type
+          ObjectType: 11
+          guid: c93254d9095d3e489ad554bb84598dad
+        - ElementName: run
+          ObjectType: 10
+          guid: dc6f554b856b414aa6c48d0b8ff6aea2
+      - name: walk
+        guid: ca89d09efa1905438dcf5c908f2a3ef5
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: character_swtch
+          ObjectType: 12
+          guid: 1925561f85526c4eadd90e2b5e57a4f0
+        - ElementName: footsteps_type
+          ObjectType: 11
+          guid: c93254d9095d3e489ad554bb84598dad
+        - ElementName: walk
+          ObjectType: 10
+          guid: ca89d09efa1905438dcf5c908f2a3ef5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: surface_type
+      guid: 3113a5d8065ac7428e442d1fac7b1089
+      id: 4064446173
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: character_swtch
+        ObjectType: 12
+        guid: 1925561f85526c4eadd90e2b5e57a4f0
+      - ElementName: surface_type
+        ObjectType: 11
+        guid: 3113a5d8065ac7428e442d1fac7b1089
+      Path: Switches\character_swtch\surface_type
+      values:
+      - name: asphalt
+        guid: 893efcb0dc92754dbdf4fde4a471f3d2
+        id: 4169408098
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: character_swtch
+          ObjectType: 12
+          guid: 1925561f85526c4eadd90e2b5e57a4f0
+        - ElementName: surface_type
+          ObjectType: 11
+          guid: 3113a5d8065ac7428e442d1fac7b1089
+        - ElementName: asphalt
+          ObjectType: 10
+          guid: 893efcb0dc92754dbdf4fde4a471f3d2
+      - name: grass
+        guid: d9552d74a4803d4f9d43a5dd80fafe60
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: character_swtch
+          ObjectType: 12
+          guid: 1925561f85526c4eadd90e2b5e57a4f0
+        - ElementName: surface_type
+          ObjectType: 11
+          guid: 3113a5d8065ac7428e442d1fac7b1089
+        - ElementName: grass
+          ObjectType: 10
+          guid: d9552d74a4803d4f9d43a5dd80fafe60
+      - name: wood
+        guid: 55e1c81a69774447a2578224445fac4a
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: character_swtch
+          ObjectType: 12
+          guid: 1925561f85526c4eadd90e2b5e57a4f0
+        - ElementName: surface_type
+          ObjectType: 11
+          guid: 3113a5d8065ac7428e442d1fac7b1089
+        - ElementName: wood
+          ObjectType: 10
+          guid: 55e1c81a69774447a2578224445fac4a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a287398d31b2fb46b12cd20242aa6e6b
+    ParentPath: Switches\Default Work Unit
+    guid: a287398d31b2fb46b12cd20242aa6e6b
+    GuidInternal: 
+    m_lastTime: -8584890272386579702
+    List: []
+  - PhysicalPath: Switches\world_swtch.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: world_swtch
+      ObjectType: 12
+      guid: fbe915cb297d9942b226559a185bb0a7
+    ParentPath: Switches\world_swtch
+    guid: fbe915cb297d9942b226559a185bb0a7
+    GuidInternal: 
+    m_lastTime: -8584871834585337053
+    List:
+    - name: outdoor_indoor
+      guid: 20176c1d6416f143bd25faa3014dd216
+      id: 27746551
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: world_swtch
+        ObjectType: 12
+        guid: fbe915cb297d9942b226559a185bb0a7
+      - ElementName: outdoor_indoor
+        ObjectType: 11
+        guid: 20176c1d6416f143bd25faa3014dd216
+      Path: Switches\world_swtch\outdoor_indoor
+      values:
+      - name: indoor
+        guid: db3be4bc3641b641a51fc1640142847b
+        id: 340398852
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: world_swtch
+          ObjectType: 12
+          guid: fbe915cb297d9942b226559a185bb0a7
+        - ElementName: outdoor_indoor
+          ObjectType: 11
+          guid: 20176c1d6416f143bd25faa3014dd216
+        - ElementName: indoor
+          ObjectType: 10
+          guid: db3be4bc3641b641a51fc1640142847b
+      - name: outdoor
+        guid: 4a8a5ebfbf9ab641845d300f8d993c5b
+        id: 144697359
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: world_swtch
+          ObjectType: 12
+          guid: fbe915cb297d9942b226559a185bb0a7
+        - ElementName: outdoor_indoor
+          ObjectType: 11
+          guid: 20176c1d6416f143bd25faa3014dd216
+        - ElementName: outdoor
+          ObjectType: 10
+          guid: 4a8a5ebfbf9ab641845d300f8d993c5b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1187d0bf94232143b68ba5bc0e10d9da
+    ParentPath: Triggers\Default Work Unit
+    guid: 1187d0bf94232143b68ba5bc0e10d9da
+    GuidInternal: 
+    m_lastTime: -8584890272386573973
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

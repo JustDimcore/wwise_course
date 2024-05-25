@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21928eb8ab214304ab81c189e3e86f22, type: 3}
+  m_Name: 9ED089CA-19FA-4305-8DCF-5C908F2A3EF5
+  m_EditorClassIdentifier: 
+  objectName: walk
+  id: 2108779966
+  guid: 9ED089CA-19FA-4305-8DCF-5C908F2A3EF5
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 8c20c4b14e0e5594b853f56055d66e6d,
+    type: 2}

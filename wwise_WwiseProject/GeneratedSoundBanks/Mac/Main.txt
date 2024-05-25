@@ -1,22 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
-<<<<<<< Updated upstream
 	70686190	amb_city_start			\desktop_events\ambience\city\amb_city_start	
 	452547817	stop_all			\desktop_events\stop_all	
 	513902030	amb_city_stop			\desktop_events\ambience\city\amb_city_stop	
-=======
-	226189677	PlayLightswitch			\desktop_events\old\PlayLightswitch	
-	251412229	Shot			\desktop_events\old\Shot	
-	810168399	PlayShot			\desktop_events\old\PlayShot	
->>>>>>> Stashed changes
 	2378719513	light_swtch			\desktop_events\scene_obj\light_swtch	
 	2385628198	footsteps			\desktop_events\char\footsteps	
 	2839638432	w_ak_47_fire			\desktop_events\weapon\w_ak_47\w_ak_47_fire	
 	2906147980	w_ak_47_stop			\desktop_events\weapon\w_ak_47\w_ak_47_stop	
-<<<<<<< Updated upstream
 	3432884657	bonfire_stop			\desktop_events\scene_obj\bonfire\bonfire_stop	
 	3877847155	bonfire_start			\desktop_events\scene_obj\bonfire\bonfire_start	
-=======
->>>>>>> Stashed changes
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	27746551	outdoor_indoor			\world_swtch\outdoor_indoor	
@@ -33,7 +24,6 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	grass	surface_type			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-<<<<<<< Updated upstream
 	33180340	fs_walk_wood_01	C:\Users\b.oliinyk\Desktop\Del\wwise_course\Untitled\wwise_WwiseProject\.cache\Mac\SFX\character\footsteps\walk\fs_walk_wood_01_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\walk_sf_swtch\w_wood\fs_walk_wood_01		96096
 	47269789	fs_walk_asphalt_v2_05	C:\Users\b.oliinyk\Desktop\Del\wwise_course\Untitled\wwise_WwiseProject\.cache\Mac\SFX\character\footsteps\walk\fs_walk_asphalt_v2_05_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\run_sf_swtch\r_asphalt\fs_walk_asphalt_v2_05		54726
 	81321587	sub_ak_47_v1_02	C:\Users\b.oliinyk\Desktop\Del\wwise_course\Untitled\wwise_WwiseProject\.cache\Mac\SFX\weapon\ak_47\sub_ak_47_v1_02_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\weapon\w_ak_47\sub_ak_47\sub_ak_47_v1_02		17820
@@ -83,18 +73,4 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1049358961	tail_outdoor_ak_47_v1_05	C:\Users\b.oliinyk\Desktop\Del\wwise_course\Untitled\wwise_WwiseProject\.cache\Mac\SFX\weapon\ak_47\tail_outdoor_ak_47_v1_05_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\weapon\w_ak_47\tail_ak_47\od_t_ak_47\tail_outdoor_ak_47_v1_05		762192
 	1061285582	body_ak_47_v1_02	C:\Users\b.oliinyk\Desktop\Del\wwise_course\Untitled\wwise_WwiseProject\.cache\Mac\SFX\weapon\ak_47\body_ak_47_v1_02_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\weapon\w_ak_47\body_ak_47\body_ak_47_v1_02		17820
 	1068802677	tail_outdoor_ak_47_v1_01	C:\Users\b.oliinyk\Desktop\Del\wwise_course\Untitled\wwise_WwiseProject\.cache\Mac\SFX\weapon\ak_47\tail_outdoor_ak_47_v1_01_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\weapon\w_ak_47\tail_ak_47\od_t_ak_47\tail_outdoor_ak_47_v1_01		762192
-=======
-	170864835	006 Game_Controller_Buttons_01	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\006 Game_Controller_Buttons_1_C9E8E5F0.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\scene_obj\Lightswitch\006 Game_Controller_Buttons_01		197300
-	274782805	Bullet Impact 16 - Light Version	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\Bullet Impact 16 - Light Version_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\Bullet Impact 16 - Light Version		72088
-	364880863	AKSD0813 AK-74 spot A close burst 03 rounds	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\AKSD0813 AK-74 spot A close burst 03 rounds_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\AKSD0813 AK-74 spot A close burst 03 rounds		121184
-	390779243	wooden floor 1 loop_01	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\wooden floor 1 loop_77B72F57.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\run_sf_swtch\r_asphalt\wooden floor 1 loop_01		90864
-	473084120	wooden floor 1 loop_03	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\wooden floor 1 loop_97B52422.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\run_sf_swtch\r_wood\wooden floor 1 loop_03		93916
-	482572697	006 Game_Controller_Buttons_1	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\006 Game_Controller_Buttons_1_BA411A67.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\scene_obj\Lightswitch\006 Game_Controller_Buttons_1		197300
-	494467928	wooden floor 1 loop_02	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\wooden floor 1 loop_E530B328.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\run_sf_swtch\r_wood\wooden floor 1 loop_02		88196
-	582118160	006 Game_Controller_Buttons_02	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\006 Game_Controller_Buttons_1_FAC2073C.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\scene_obj\Lightswitch\006 Game_Controller_Buttons_02		203460
-	641782954	006 Game_Controller_Buttons_04	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\006 Game_Controller_Buttons_1_14663E15.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\scene_obj\Lightswitch\006 Game_Controller_Buttons_04		114104
-	661574566	grass 3 single step 3	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\grass 3 single step 3_818F3B66.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\run_sf_swtch\r_grass\grass 3 single step 3		144560
-	751951638	wooden floor 1 loop	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\wooden floor 1 loop_5732571B.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\char\fs_t_swtch\run_sf_swtch\r_wood\wooden floor 1 loop		91628
-	1023274579	006 Game_Controller_Buttons_03	C:\Projects\wwise\wwise_WwiseProject\.cache\Mac\SFX\006 Game_Controller_Buttons_1_272AF0D3.wem		\Actor-Mixer Hierarchy\desktop_actor_mixers\scene_obj\Lightswitch\006 Game_Controller_Buttons_03		175728
->>>>>>> Stashed changes
 
