@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -19,6 +20,7 @@ public class AnimationLauncher : ClickableObject
     private bool _played;
     private int _index;
     private bool _started;
+    private readonly List<AnimationState> _states = new();
 
     private void Reset()
     {
@@ -26,6 +28,12 @@ public class AnimationLauncher : ClickableObject
             _soundEvents.AddRange(GetComponents<AkEvent>());
         if (_animator == null)
             _animator = GetComponent<Animation>();
+    }
+
+    private void Awake()
+    {
+        foreach (AnimationState state in _animator) 
+            _states.Add(state);
     }
 
     public override void OnClick()
@@ -43,17 +51,7 @@ public class AnimationLauncher : ClickableObject
 
         if (_mode == PlayingMode.Switch)
         {
-            int counter = 0;
-            foreach (AnimationState state in _animator)
-            {
-                if (counter == _index)
-                {
-                    _animator.clip = state.clip;
-                    break;
-                }
-
-                counter++;
-            }
+            _animator.clip = _states[_index].clip;
 
             _index++;
             if (_index >= _animator.GetClipCount())
