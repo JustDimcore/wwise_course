@@ -2148,11 +2148,6 @@ t - tail</Comment>
 						<SwitchContainer Name="amb_outdoor_indoor" ID="{074B8EC9-0412-4FC0-81FE-5FDFBE896167}" ShortID="221718808">
 							<PropertyList>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-96</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
