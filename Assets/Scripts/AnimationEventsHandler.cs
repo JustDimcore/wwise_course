@@ -68,11 +68,9 @@ public class AnimationEventsHandler : MonoBehaviour
     
     private void StepWalk()
     {
-        Debug.Log(_animator.moveSpeed);
-        if (_animator.moveSpeed is > 0.001f and < 4.1f)
+        if (!_animator.stopMove && _animator.moveSpeed is > 0.001f and < 4.1f)
         {
             _stepWalkEvent?.HandleEvent(null);
-            Debug.Log("Walk event");
         }
     }
     
@@ -84,7 +82,7 @@ public class AnimationEventsHandler : MonoBehaviour
     
     private void StepRun()
     {
-        if (_animator.moveSpeed >= 4.1f)
+        if (!_animator.stopMove && _animator.moveSpeed >= 4.1f)
         {
             _stepRunEvent?.HandleEvent(null);
             Debug.Log("Run event");
