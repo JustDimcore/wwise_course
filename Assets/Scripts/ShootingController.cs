@@ -47,7 +47,7 @@ public class ShootingController : MonoBehaviour
 
             if (_isShootingSoundInProgress)
             {
-                _shotStopEvent.HandleEvent(null);
+                _shotStopEvent.HandleEvent(gameObject);
                 _isShootingSoundInProgress = false;
             }
         }
@@ -60,7 +60,7 @@ public class ShootingController : MonoBehaviour
         _vfxCoroutine = StartCoroutine(VfxCoroutine());
 
         if (!_isShootingSoundInProgress)
-            _shotStartEvent.HandleEvent(null);
+            _shotStartEvent.HandleEvent(gameObject);
         _isShootingSoundInProgress = true;
         
         // find shootable object in the center of the screen

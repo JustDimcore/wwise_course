@@ -24,7 +24,7 @@ public class AnimationEventsHandler : MonoBehaviour
         {
             if (!_isLastFrameRunning)
             {
-                _runSwitch.HandleEvent(null);
+                _runSwitch.HandleEvent(gameObject);
                 _isLastFrameRunning = true;
                 Debug.Log("Switched to run");
             }
@@ -34,7 +34,7 @@ public class AnimationEventsHandler : MonoBehaviour
         {
             if (_isLastFrameRunning)
             {
-                _walkSwitch.HandleEvent(null);
+                _walkSwitch.HandleEvent(gameObject);
                 _isLastFrameRunning = false;
                 Debug.Log("Switched to walk");
             }
@@ -45,32 +45,33 @@ public class AnimationEventsHandler : MonoBehaviour
     private void JumpStart()
     {
         Debug.Log("JumpStart anim event");
-        _jumpStartEvent?.HandleEvent(null);
+        _jumpStartEvent?.HandleEvent(gameObject);
     }
     
     private void JumpFloorTouch()
     {
         Debug.Log("JumpFloorTouch anim event");
-        _jumpFloorTouchEvent?.HandleEvent(null);
+        _jumpFloorTouchEvent?.HandleEvent(gameObject);
     }
     
     private void JumpFloorTouchLow()
     {
         Debug.Log("JumpFloorTouchLow anim event");
-        _jumpFloorTouchLowEvent?.HandleEvent(null);
+        _jumpFloorTouchLowEvent?.HandleEvent(gameObject);
     }
     
     private void JumpMoveStart()
     {
         Debug.Log("JumpMoveStart anim event");
-        _jumpMoveStartEvent?.HandleEvent(null);
+        _jumpMoveStartEvent?.HandleEvent(gameObject);
     }
     
     private void StepWalk()
     {
-        if (!_animator.stopMove && _animator.moveSpeed is > 0.001f and < 4.1f)
+        if (!_animator.stopMove && _animator.inputMagnitude is > 0.001f and <= 1f)
         {
-            _stepWalkEvent?.HandleEvent(null);
+            _stepWalkEvent?.HandleEvent(gameObject);
+            Debug.Log("Walk event " + _animator.inputMagnitude);
         }
     }
     
@@ -82,10 +83,10 @@ public class AnimationEventsHandler : MonoBehaviour
     
     private void StepRun()
     {
-        if (!_animator.stopMove && _animator.moveSpeed >= 4.1f)
+        if (!_animator.stopMove && _animator.inputMagnitude > 1f)
         {
-            _stepRunEvent?.HandleEvent(null);
-            Debug.Log("Run event");
+            _stepRunEvent?.HandleEvent(gameObject);
+            Debug.Log("Run event " + _animator.inputMagnitude);
         }
     }
 }
