@@ -184,6 +184,58 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="amb_river_start" ID="{20283094-2F60-4237-9D1E-4913A639CBCB}">
+									<ChildrenList>
+										<Action Name="" ID="{5AF04FC8-E323-47DD-862C-5ECA7B118A55}" ShortID="393816435">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_river" ID="{B0CC6542-0E2B-453C-A2A0-CFA853C6390B}" WorkUnitID="{054D3E64-3E6D-4EFE-B5AD-AE7D265C9432}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="amb_forest_start" ID="{AF343DA1-9852-486F-B03F-5DDD11760CBF}">
+									<ChildrenList>
+										<Action Name="" ID="{C13BC582-1933-4BAB-A230-B73E235EC097}" ShortID="594685325">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_forest" ID="{AD3F8DE0-D3B0-489C-B5B4-B5A8A3305245}" WorkUnitID="{054D3E64-3E6D-4EFE-B5AD-AE7D265C9432}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="amb_forest_stop" ID="{5CBFD02B-FAA2-4B7D-B9B6-BFFF50FF7F0E}">
+									<ChildrenList>
+										<Action Name="" ID="{7BEBBA3D-4EF0-4FD4-BDC1-9EE01BB47C39}" ShortID="624567782">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_forest" ID="{AD3F8DE0-D3B0-489C-B5B4-B5A8A3305245}" WorkUnitID="{054D3E64-3E6D-4EFE-B5AD-AE7D265C9432}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="amb_river_stop" ID="{A9E5FEAD-A273-45C5-A09B-A72B7A6656BD}">
+									<ChildrenList>
+										<Action Name="" ID="{AB1FBF22-0AFC-4E89-B1A5-A5CEC90E683A}" ShortID="994087389">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_river" ID="{B0CC6542-0E2B-453C-A2A0-CFA853C6390B}" WorkUnitID="{054D3E64-3E6D-4EFE-B5AD-AE7D265C9432}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
