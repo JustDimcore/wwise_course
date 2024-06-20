@@ -50,7 +50,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EC71B75B-E6CF-E758-C7B2-1543B98A2A19}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{78ED7FE2-3B1A-534F-1C32-4FB080BCE6F0}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -178,6 +178,10 @@
 					<ShortName>weapon\ak_47\aftershot_ak_47_v1_03.wav</ShortName>
 					<CachePath>SFX/weapon/ak_47/aftershot_ak_47_v1_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="679886870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience\amb_river.wav</ShortName>
+					<CachePath>SFX/ambience/amb_river_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="725303012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>character\footsteps\walk\fs_walk_wood_06.wav</ShortName>
 					<CachePath>SFX/character/footsteps/walk/fs_walk_wood_06_818F3B66.wem</CachePath>
@@ -189,6 +193,10 @@
 				<File Id="748003061" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>weapon\ak_47\sub_ak_47_v1_03.wav</ShortName>
 					<CachePath>SFX/weapon/ak_47/sub_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="788974821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience\amb_forest.wav</ShortName>
+					<CachePath>SFX/ambience/amb_forest_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="805859625" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>weapon\ak_47\tail_indoor_ak_47_v1_01.wav</ShortName>
@@ -269,7 +277,19 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="513902030" Name="amb_city_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3877847155" Name="bonfire_start" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="1494607340" Name="amb_forest_start" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="788974821"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="333335808" Name="amb_forest_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="316443517" Name="amb_river_start" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="679886870"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2431813887" Name="amb_river_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3877847155" Name="bonfire_start" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="554178578"/>
 					</MediaRefs>
@@ -428,5 +448,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{47ACE584-FF79-5C2B-F83B-7DF65F6A6A92}</FileHash>
+	<FileHash>{54F00769-EC42-791C-4895-A4EE9BFD7BB9}</FileHash>
 </SoundBanksInfo>

@@ -15,6 +15,10 @@ namespace AK
     {
         static const AkUniqueID AMB_CITY_START = 70686190U;
         static const AkUniqueID AMB_CITY_STOP = 513902030U;
+        static const AkUniqueID AMB_FOREST_START = 1494607340U;
+        static const AkUniqueID AMB_FOREST_STOP = 333335808U;
+        static const AkUniqueID AMB_RIVER_START = 316443517U;
+        static const AkUniqueID AMB_RIVER_STOP = 2431813887U;
         static const AkUniqueID BONFIRE_START = 3877847155U;
         static const AkUniqueID BONFIRE_STOP = 3432884657U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
