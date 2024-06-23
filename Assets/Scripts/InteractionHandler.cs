@@ -1,4 +1,5 @@
-﻿using Invector.vCharacterController;
+﻿using System;
+using Invector.vCharacterController;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
@@ -60,6 +61,11 @@ public class InteractionHandler : MonoBehaviour
                 _clickableTarget.OnClick();
             }
         }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            _input.IsShootingLocked = false;
+        }
     }
 
     private void CheckInteractivity()
@@ -72,7 +78,7 @@ public class InteractionHandler : MonoBehaviour
             OnModeChanged(_currentMode);
         }
 
-        _input.IsShootingLocked = newMode == InteractionMode.Interactive;
+        _input.IsShootingLocked = _input.IsShootingLocked || newMode == InteractionMode.Interactive;
     }
 
     private void OnModeChanged(InteractionMode mode)
@@ -104,5 +110,17 @@ public class InteractionHandler : MonoBehaviour
 
         clickableObject = null;
         return false;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Vector3 screenCenter = new Vector3(Screen.width / 2f, Screen.height / 2f, 0); // Input.mousePosition
+        Ray ray = _camera.ScreenPointToRay(screenCenter);
+
+        Physics.Raycast(ray, out var hit, 10, _interactionLayer);
+        
+        Gizmos.color = Color.red;
+        // draw line to collision point
+        Gizmos.DrawLine(ray.origin, hit.point);
     }
 }

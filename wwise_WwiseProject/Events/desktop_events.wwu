@@ -121,7 +121,17 @@
 				</Folder>
 				<Folder Name="scene_obj" ID="{DD715CE2-7CFE-4945-9510-C240D1B33921}" ShortID="592447807">
 					<ChildrenList>
-						<Event Name="light_swtch" ID="{9CEF97E8-B3CD-468D-B889-D4AB837E292C}"/>
+						<Event Name="light_swtch" ID="{9CEF97E8-B3CD-468D-B889-D4AB837E292C}">
+							<ChildrenList>
+								<Action Name="" ID="{CBD365CA-3391-4BBA-8B42-2CC2DFCBF891}" ShortID="30321867">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lightswitch" ID="{4AC2C851-C823-485E-8BB2-C28D140692FF}" WorkUnitID="{054D3E64-3E6D-4EFE-B5AD-AE7D265C9432}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Folder Name="bonfire" ID="{B6570C3A-551A-49FD-8E39-11A41D56969A}" ShortID="351363488">
 							<ChildrenList>
 								<Event Name="bonfire_start" ID="{F7056330-069F-4618-B557-8EFD09E66E1C}">

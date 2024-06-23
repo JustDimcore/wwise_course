@@ -50,7 +50,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{78ED7FE2-3B1A-534F-1C32-4FB080BCE6F0}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C1C17628-BA10-11D4-0B52-F66DA31959B7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -85,6 +85,10 @@
 				<File Id="167176446" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>weapon\ak_47\body_ak_47_v1_05.wav</ShortName>
 					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="170864835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>006 Game_Controller_Buttons_1.wav</ShortName>
+					<CachePath>SFX/006 Game_Controller_Buttons_1_C9E8E5F0.wem</CachePath>
 				</File>
 				<File Id="180534616" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>character\footsteps\walk\fs_walk_grass_02.wav</ShortName>
@@ -154,6 +158,10 @@
 					<ShortName>weapon\ak_47\body_ak_47_v1_04.wav</ShortName>
 					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_04_818F3B66.wem</CachePath>
 				</File>
+				<File Id="482572697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>006 Game_Controller_Buttons_1.wav</ShortName>
+					<CachePath>SFX/006 Game_Controller_Buttons_1_BA411A67.wem</CachePath>
+				</File>
 				<File Id="488683552" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>character\footsteps\walk\fs_walk_grass_03.wav</ShortName>
 					<CachePath>SFX/character/footsteps/walk/fs_walk_grass_03_818F3B66.wem</CachePath>
@@ -170,6 +178,10 @@
 					<ShortName>character\footsteps\walk\fs_walk_asphalt_v2_02.wav</ShortName>
 					<CachePath>SFX/character/footsteps/walk/fs_walk_asphalt_v2_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="582118160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>006 Game_Controller_Buttons_1.wav</ShortName>
+					<CachePath>SFX/006 Game_Controller_Buttons_1_FAC2073C.wem</CachePath>
+				</File>
 				<File Id="610045618" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>weapon\ak_47\body_ak_47_v1_01.wav</ShortName>
 					<CachePath>SFX/weapon/ak_47/body_ak_47_v1_01_818F3B66.wem</CachePath>
@@ -177,6 +189,10 @@
 				<File Id="628606735" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>weapon\ak_47\aftershot_ak_47_v1_03.wav</ShortName>
 					<CachePath>SFX/weapon/ak_47/aftershot_ak_47_v1_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="641782954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>006 Game_Controller_Buttons_1.wav</ShortName>
+					<CachePath>SFX/006 Game_Controller_Buttons_1_14663E15.wem</CachePath>
 				</File>
 				<File Id="679886870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ambience\amb_river.wav</ShortName>
@@ -245,6 +261,10 @@
 				<File Id="1006631109" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ambience\city\general_city_outdoor_amb.wav</ShortName>
 					<CachePath>SFX/ambience/city/general_city_outdoor_amb_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1023274579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>006 Game_Controller_Buttons_1.wav</ShortName>
+					<CachePath>SFX/006 Game_Controller_Buttons_1_272AF0D3.wem</CachePath>
 				</File>
 				<File Id="1049358961" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>weapon\ak_47\tail_outdoor_ak_47_v1_05.wav</ShortName>
@@ -373,7 +393,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2378719513" Name="light_swtch" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2378719513" Name="light_swtch" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5937892" DurationMax="1.0591916">
+					<MediaRefs>
+						<MediaRef Id="170864835"/>
+						<MediaRef Id="482572697"/>
+						<MediaRef Id="582118160"/>
+						<MediaRef Id="641782954"/>
+						<MediaRef Id="1023274579"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="452547817" Name="stop_all" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2839638432" Name="w_ak_47_fire" MaxAttenuation="250" DurationType="Infinite">
 					<MediaRefs>
@@ -448,5 +476,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{034BB8EF-A1FE-6704-6CFF-3622F01B3047}</FileHash>
+	<FileHash>{FBF1F88E-B26D-2B73-D84E-EFAACCB3D5B2}</FileHash>
 </SoundBanksInfo>
