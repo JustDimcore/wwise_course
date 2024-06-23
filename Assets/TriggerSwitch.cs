@@ -7,29 +7,21 @@ public class TriggerSwitch : AkTriggerBase
     [SerializeField] private Switch _inSwitch = new();
     [SerializeField] private Switch _outSwitch = new();
 
-    private bool _stay;
-    private bool _currentSwitchState;
+    private int _enterCounter;
 
-    private void FixedUpdate()
+    private void OnTriggerEnter(Collider other)
     {
-        if (_currentSwitchState != _stay)
-        {
-            SetSwitch(_stay);
-            _currentSwitchState = _stay;
-        }
+        if (other.gameObject == _triggerObject)
+            if (++_enterCounter == 1)
+                SetSwitch(true);
+    }
 
-        _stay = false;
-    }
-    
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject == _triggerObject) 
-            _stay = true;
+        if (other.gameObject == _triggerObject)
+            if (--_enterCounter == 0)
+                SetSwitch(false);
     }
-    
-    private void SetSwitch(bool state)
-    {
-        Switch akSwitch = state ? _inSwitch : _outSwitch;
-        AkSoundEngine.SetSwitch(akSwitch.GroupId, akSwitch.Id, gameObject);
-    }
+
+    private void SetSwitch(bool state) => (state ? _inSwitch : _outSwitch).SetValue(gameObject);
 }
