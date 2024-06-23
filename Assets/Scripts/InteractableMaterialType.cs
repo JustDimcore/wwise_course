@@ -7,4 +7,6 @@ public enum InteractableMaterialType
     Grass = 3,
     Dirt = 4,
     Carpet = 5,
+    Metal = 6,
+    Brick = 7,
 }
