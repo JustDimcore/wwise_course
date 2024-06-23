@@ -1,8 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 using AK.Wwise;
 
 public class TriggerSwitch : AkTriggerBase
 {
+    [SerializeField] private List<GameObject> _switchTargetObjects;
     [SerializeField] private GameObject _triggerObject;
     [SerializeField] private Switch _inSwitch = new();
     [SerializeField] private Switch _outSwitch = new();
@@ -23,5 +25,10 @@ public class TriggerSwitch : AkTriggerBase
                 SetSwitch(false);
     }
 
-    private void SetSwitch(bool state) => (state ? _inSwitch : _outSwitch).SetValue(gameObject);
+    private void SetSwitch(bool state)
+    {
+        Switch akSwitch = state ? _inSwitch : _outSwitch;
+        foreach (GameObject go in _switchTargetObjects)
+            akSwitch.SetValue(go);
+    }
 }
