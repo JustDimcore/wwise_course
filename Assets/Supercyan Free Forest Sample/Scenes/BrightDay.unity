@@ -2258,10 +2258,7 @@ GameObject:
   - component: {fileID: 199344441}
   - component: {fileID: 199344435}
   - component: {fileID: 199344434}
-  - component: {fileID: 199344437}
-  - component: {fileID: 199344442}
-  - component: {fileID: 199344439}
-  - component: {fileID: 199344438}
+  - component: {fileID: 199344443}
   m_Layer: 0
   m_Name: amb_outdoor_indoor
   m_TagString: Untagged
@@ -2357,69 +2354,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 6.760725, y: 7, z: 18.312963}
   m_Center: {x: -0.08121777, y: 0, z: 0.15648079}
---- !u!114 &199344437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199344432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 967a794dc08f4154e8a20a6958c925f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 88408e47929df45139eb410663a72d83,
-      type: 2}
-  valueIdInternal: 0
-  groupIdInternal: 0
-  valueGuidInternal: 
-  groupGuidInternal: 
---- !u!114 &199344438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199344432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 967a794dc08f4154e8a20a6958c925f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 3f2ff36a
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b3a21d7cb47744db290bdf3a7635e902,
-      type: 2}
-  valueIdInternal: 0
-  groupIdInternal: 0
-  valueGuidInternal: 
-  groupGuidInternal: 
---- !u!114 &199344439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199344432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d8405bd16535245aa4b5dd7a3a4af5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerObject: {fileID: 1904294054}
 --- !u!65 &199344440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2456,13 +2390,13 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.84184515, y: 6.5094767, z: 2.6887162}
   m_Center: {x: -3.5451465, y: -0.8738303, z: -5.6940103}
---- !u!114 &199344442
+--- !u!114 &199344443
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2471,10 +2405,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 199344432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad71f12bea58fb54281183cf7086596f, type: 3}
+  m_Script: {fileID: 11500000, guid: c30b97b801f720c4d90ee948e6e46556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerObject: {fileID: 1904294054}
+  _triggerObject: {fileID: 1904294054}
+  _inSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 88408e47929df45139eb410663a72d83,
+      type: 2}
+  _outSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b3a21d7cb47744db290bdf3a7635e902,
+      type: 2}
 --- !u!1001 &207479868
 PrefabInstance:
   m_ObjectHideFlags: 0
