@@ -2412,6 +2412,8 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b3a21d7cb47744db290bdf3a7635e902,
       type: 2}
+  _forceDefaultState: 1
+  _defaultState: 0
 --- !u!1001 &207479868
 PrefabInstance:
   m_ObjectHideFlags: 0

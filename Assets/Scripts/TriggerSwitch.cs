@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using AK.Wwise;
@@ -8,6 +9,8 @@ public class TriggerSwitch : AkTriggerBase
     [SerializeField] private GameObject _triggerObject;
     [SerializeField] private Switch _inSwitch = new();
     [SerializeField] private Switch _outSwitch = new();
+    [SerializeField] private bool _forceDefaultState;
+    [SerializeField] private bool _defaultState;
 
     private int _enterCounter;
 
@@ -23,6 +26,12 @@ public class TriggerSwitch : AkTriggerBase
         if (other.gameObject == _triggerObject)
             if (--_enterCounter == 0)
                 SetSwitch(false);
+    }
+
+    private void Start()
+    {
+        if (_forceDefaultState)
+            SetSwitch(_defaultState);
     }
 
     private void SetSwitch(bool state)
