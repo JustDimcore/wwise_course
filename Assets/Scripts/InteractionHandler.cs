@@ -27,6 +27,7 @@ public class InteractionHandler : MonoBehaviour
 
     private InteractionMode _currentMode = InteractionMode.None;
     private ClickableObject _clickableTarget;
+    private bool _remainState;
 
     private void Awake()
     {
@@ -48,7 +49,8 @@ public class InteractionHandler : MonoBehaviour
 
     private void Update()
     {
-        CheckInteractivity();
+        if (!_remainState)
+            CheckInteractivity();
         CheckClick();
     }
 
@@ -60,11 +62,13 @@ public class InteractionHandler : MonoBehaviour
             {
                 _clickableTarget.OnClick();
             }
+            CheckInteractivity();
+            _remainState = true;
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            _input.IsShootingLocked = false;
+            _remainState = false;
         }
     }
 
@@ -78,7 +82,7 @@ public class InteractionHandler : MonoBehaviour
             OnModeChanged(_currentMode);
         }
 
-        _input.IsShootingLocked = _input.IsShootingLocked || newMode == InteractionMode.Interactive;
+        _input.IsShootingLocked = newMode == InteractionMode.Interactive;
     }
 
     private void OnModeChanged(InteractionMode mode)
