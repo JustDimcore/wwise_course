@@ -23,10 +23,29 @@ namespace AK
         static const AkUniqueID BONFIRE_STOP = 3432884657U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID LIGHT_SWTCH = 2378719513U;
+        static const AkUniqueID MUSIC_START = 3725903807U;
+        static const AkUniqueID MUSIC_STOP = 3227181061U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID W_AK_47_FIRE = 2839638432U;
         static const AkUniqueID W_AK_47_STOP = 2906147980U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC_STATES
+        {
+            static const AkUniqueID GROUP = 1690668539U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BRIDGE = 2068062714U;
+                static const AkUniqueID INDOOR = 340398852U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OUTDOOR = 144697359U;
+            } // namespace STATE
+        } // namespace MUSIC_STATES
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

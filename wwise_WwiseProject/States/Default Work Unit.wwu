@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CDB3FC2A-763E-44DF-85DE-FF3B31481C86}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{CDB3FC2A-763E-44DF-85DE-FF3B31481C86}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CDB3FC2A-763E-44DF-85DE-FF3B31481C86}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_states" ID="{13348C16-EE07-4313-BB75-A29B9D475E69}">
+					<ChildrenList>
+						<State Name="None" ID="{CAD6336D-C889-49FD-BE68-04C55B399989}"/>
+						<State Name="indoor" ID="{4BC95928-16B6-48B3-BE5F-FD63E65C681F}"/>
+						<State Name="outdoor" ID="{00388FA2-AA04-4E09-8179-E163F867B3C0}"/>
+						<State Name="bridge" ID="{02E701ED-4245-4AC8-848D-D47E9B2F3300}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

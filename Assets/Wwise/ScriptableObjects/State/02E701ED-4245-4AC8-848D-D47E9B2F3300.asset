@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfa01f19109c5d46a3dccfc2b47a1cf, type: 3}
+  m_Name: 02E701ED-4245-4AC8-848D-D47E9B2F3300
+  m_EditorClassIdentifier: 
+  objectName: bridge
+  id: 2068062714
+  guid: 02E701ED-4245-4AC8-848D-D47E9B2F3300
+  WwiseStateGroupReference: {fileID: 11400000, guid: 648040af16be5734e804ebb04eec9896,
+    type: 2}

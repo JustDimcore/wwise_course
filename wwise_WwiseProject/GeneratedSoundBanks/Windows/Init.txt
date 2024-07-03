@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_states			\Default Work Unit\Music_states	
+
+State	ID	Name	State Group			Notes
+	144697359	outdoor	Music_states			
+	340398852	indoor	Music_states			
+	748895195	None	Music_states			
+	2068062714	bridge	Music_states			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	ambience			\desktop_master_mixer\Master Audio Bus\EFFECTS\ambience	
 	1557941045	characters			\desktop_master_mixer\Master Audio Bus\EFFECTS\characters	
