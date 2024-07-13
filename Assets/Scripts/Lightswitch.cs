@@ -1,33 +1,25 @@
 using System;
 using UnityEngine;
-using UnityEngine.Events;
 
-public class Lightswitch : ClickableObject
+public class LightSwitch : ClickableObject
 {
-    [SerializeField] private GameObject _target;
-    [SerializeField] private UnityEvent _unityEvent;
     [SerializeField] private Behaviour _targetComponent;
-    [SerializeField] private AkAmbient _sound;
+    [SerializeField] private AK.Wwise.Event lightSwitch; // Івент для перемикання стану світла
 
     private void Awake()
     {
-        if (!_sound)
-            _sound = GetComponent<AkAmbient>();
-    }
-
-    private void Reset()
-    {
-        if (!_sound)
-            _sound = GetComponent<AkAmbient>();
+        // Перевірка, чи встановлений івент через інспектор
+        if (lightSwitch == null)
+        {
+            Debug.LogWarning("Івент перемикання світла не встановлений в інспекторі.");
+        }
     }
 
     public override void OnClick()
     {
-        if (_target)
-            _target.SetActive(!_target.activeSelf);
         if (_targetComponent)
             _targetComponent.enabled = !_targetComponent.enabled;
-        _unityEvent?.Invoke();
-        _sound.HandleEvent(null);
+
+        lightSwitch.Post(gameObject); // Виклик івенту перемикання стану світла
     }
 }

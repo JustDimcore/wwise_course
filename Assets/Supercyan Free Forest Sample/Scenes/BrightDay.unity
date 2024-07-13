@@ -1151,7 +1151,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1163811327}
+      addedObject: {fileID: 1163811324}
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
@@ -1159,11 +1159,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1163811325}
-    - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1163811324}
+      addedObject: {fileID: 1163811327}
   m_SourcePrefab: {fileID: 100100000, guid: c0b8a552e87eba541a4496a99e7933c1, type: 3}
 --- !u!1001 &99782826
 PrefabInstance:
@@ -3393,12 +3389,20 @@ MonoBehaviour:
   _door: {fileID: 323651526}
   _openingSpeed: 90
   _openAngle: 110
-  _closeAngle: 0
+  _closedAngle: 0
   _isOpenedByDefault: 0
-  _doorMovingStart: {fileID: 0}
-  _doorMovingPaused: {fileID: 0}
-  _doorClosed: {fileID: 0}
-  _doorOpened: {fileID: 0}
+  houseDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &323651528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4276,6 +4280,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 417343357}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &423450076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8876021606055872127, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1785704577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &423450077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1137191687032992317, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1785704577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &423450081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423450076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5935105e013566a44876878f74ee8c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _door: {fileID: 423450077}
+  _openingSpeed: 90
+  _openAngle: 90
+  _closedAngle: 0
+  _isOpenedByDefault: 0
+  houseDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &428347582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7486370789847525827, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
@@ -4303,46 +4348,20 @@ MonoBehaviour:
   _door: {fileID: 428347583}
   _openingSpeed: 90
   _openAngle: -97
-  _closeAngle: 0
+  _closedAngle: 0
   _isOpenedByDefault: 0
-  _doorMovingStart: {fileID: 0}
-  _doorMovingPaused: {fileID: 0}
-  _doorClosed: {fileID: 0}
-  _doorOpened: {fileID: 0}
---- !u!114 &428347585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428347582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
+  houseDoorOpened:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &428347586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4541,6 +4560,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2077534968}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb1ea10424b1fd54a911d11e956ea492,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2077534969}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb1ea10424b1fd54a911d11e956ea492,
         type: 3}
       insertIndex: -1
@@ -6647,12 +6670,20 @@ MonoBehaviour:
   _door: {fileID: 660005292}
   _openingSpeed: 45
   _openAngle: 100
-  _closeAngle: 0
+  _closedAngle: 0
   _isOpenedByDefault: 0
-  _doorMovingStart: {fileID: 660005296}
-  _doorMovingPaused: {fileID: 660005295}
-  _doorClosed: {fileID: 660005294}
-  _doorOpened: {fileID: 660005293}
+  houseDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &660005299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8169,7 +8200,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 870206908}
+      addedObject: {fileID: 870206905}
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
@@ -8177,11 +8208,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 870206906}
-    - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 870206905}
+      addedObject: {fileID: 870206908}
   m_SourcePrefab: {fileID: 100100000, guid: c0b8a552e87eba541a4496a99e7933c1, type: 3}
 --- !u!4 &870206904 stripped
 Transform:
@@ -8210,41 +8237,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.26027846, y: 0.176453, z: 0.2802795}
   m_Center: {x: 0.006432332, y: -0.023527684, z: 0.031489104}
---- !u!114 &870206906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132080404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a52705ce72173ca4f8f0d5f2ea6dfed8,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &870206907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8279,12 +8271,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d17c28f6e6d444596e498abfe807d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 976007587}
-  _unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _targetComponent: {fileID: 0}
-  _sound: {fileID: 918768098}
+  _targetComponent: {fileID: 976007590}
+  lightSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a52705ce72173ca4f8f0d5f2ea6dfed8,
+      type: 2}
 --- !u!4 &882872728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6495630340161587805, guid: 0758d192278633543ad832e7ee2f264f,
@@ -9063,7 +9055,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 918768100}
+      addedObject: {fileID: 918768101}
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
@@ -9071,11 +9063,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 918768098}
-    - targetCorrespondingSourceObject: {fileID: 6974971268567601350, guid: c0b8a552e87eba541a4496a99e7933c1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 918768101}
+      addedObject: {fileID: 918768100}
   m_SourcePrefab: {fileID: 100100000, guid: c0b8a552e87eba541a4496a99e7933c1, type: 3}
 --- !u!4 &918768096 stripped
 Transform:
@@ -9089,41 +9077,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 918768095}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &918768098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918768097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a52705ce72173ca4f8f0d5f2ea6dfed8,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &918768099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9158,12 +9111,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d17c28f6e6d444596e498abfe807d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 356598044}
-  _unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _targetComponent: {fileID: 0}
-  _sound: {fileID: 918768098}
+  _targetComponent: {fileID: 356598047}
+  lightSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a52705ce72173ca4f8f0d5f2ea6dfed8,
+      type: 2}
 --- !u!65 &918768101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11093,6 +11046,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb1ea10424b1fd54a911d11e956ea492,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1223554564}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb1ea10424b1fd54a911d11e956ea492,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1223554562}
     - targetCorrespondingSourceObject: {fileID: -8068073526183931155, guid: eb1ea10424b1fd54a911d11e956ea492,
         type: 3}
@@ -11639,41 +11596,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.26027846, y: 0.176453, z: 0.2802795}
   m_Center: {x: 0.006432332, y: -0.023527684, z: 0.031489104}
---- !u!114 &1163811325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163811322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a52705ce72173ca4f8f0d5f2ea6dfed8,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &1163811326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11708,12 +11630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d17c28f6e6d444596e498abfe807d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 0}
-  _unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
   _targetComponent: {fileID: 1735490282}
-  _sound: {fileID: 1163811325}
+  lightSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a52705ce72173ca4f8f0d5f2ea6dfed8,
+      type: 2}
 --- !u!1 &1166508207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011357774326, guid: 9c7f97eb257571446a2c55ad625cac36,
@@ -12109,12 +12031,20 @@ MonoBehaviour:
   _door: {fileID: 1223554561}
   _openingSpeed: 150
   _openAngle: 180
-  _closeAngle: 75
+  _closedAngle: 75
   _isOpenedByDefault: 1
-  _doorMovingStart: {fileID: 0}
-  _doorMovingPaused: {fileID: 0}
-  _doorClosed: {fileID: 0}
-  _doorOpened: {fileID: 0}
+  houseDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &1223554563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12136,6 +12066,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2.0699244, z: 0.17}
   m_Center: {x: 0.41000384, y: 1.0126133, z: 0.0000000026930354}
+--- !u!114 &1223554564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223554560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38372ca5dfd4446458521b6dde440b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1224773009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13617,46 +13569,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1959707536}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1326016476 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4923134873661679225, guid: b9520086e6044ec428e7142211bb0ef7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1959707536}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1326016480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326016475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &1326016481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13679,27 +13591,6 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &1326016482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326016475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5935105e013566a44876878f74ee8c5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _door: {fileID: 1326016476}
-  _openingSpeed: 90
-  _openAngle: -50
-  _closeAngle: 0
-  _isOpenedByDefault: 1
-  _doorMovingStart: {fileID: 0}
-  _doorMovingPaused: {fileID: 0}
-  _doorClosed: {fileID: 0}
-  _doorOpened: {fileID: 0}
 --- !u!65 &1326016483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16783,12 +16674,20 @@ MonoBehaviour:
   _door: {fileID: 1621160681}
   _openingSpeed: 45
   _openAngle: -110
-  _closeAngle: 0
+  _closedAngle: 0
   _isOpenedByDefault: 1
-  _doorMovingStart: {fileID: 1621160685}
-  _doorMovingPaused: {fileID: 1621160684}
-  _doorClosed: {fileID: 1621160683}
-  _doorOpened: {fileID: 1621160682}
+  houseDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &1621160688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18213,10 +18112,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9159537069380098256, guid: a7dbdd508737b0d49b444c4263d812f1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1907067998}
-    - targetCorrespondingSourceObject: {fileID: 9159537069380098256, guid: a7dbdd508737b0d49b444c4263d812f1,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1907067997}
     - targetCorrespondingSourceObject: {fileID: 9159537069380098256, guid: a7dbdd508737b0d49b444c4263d812f1,
         type: 3}
@@ -18225,11 +18120,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9159537069380098256, guid: a7dbdd508737b0d49b444c4263d812f1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1907067995}
-    - targetCorrespondingSourceObject: {fileID: 9159537069380098256, guid: a7dbdd508737b0d49b444c4263d812f1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1907067994}
+      addedObject: {fileID: 1907067998}
   m_SourcePrefab: {fileID: 100100000, guid: a7dbdd508737b0d49b444c4263d812f1, type: 3}
 --- !u!4 &1781965200 stripped
 Transform:
@@ -18254,6 +18145,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137191687032992317, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137191687032992317, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1634816630977604858, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
         type: 3}
@@ -18352,10 +18253,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7486370789847525827, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 428347584}
-    - targetCorrespondingSourceObject: {fileID: 7486370789847525827, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 428347587}
     - targetCorrespondingSourceObject: {fileID: 7486370789847525827, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
         type: 3}
@@ -18364,7 +18261,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7486370789847525827, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 428347585}
+      addedObject: {fileID: 428347584}
+    - targetCorrespondingSourceObject: {fileID: 8876021606055872127, guid: bfa974a01b4cbd94eb18f3e7956f9aca,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 423450081}
   m_SourcePrefab: {fileID: 100100000, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
 --- !u!4 &1785704578 stripped
 Transform:
@@ -21402,74 +21303,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1781965199}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1907067994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907067991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
---- !u!114 &1907067995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907067991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc46ee73139ed9499f447988ef41008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &1907067996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21522,15 +21355,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907067991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8d17c28f6e6d444596e498abfe807d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e4260b04367349b7a9ba947efc939c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 0}
-  _unityEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _targetComponent: {fileID: 1907067994}
-  _sound: {fileID: 1907067995}
+  radioOn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  radioOff:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1908249567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 156976217076831411, guid: 80e5bbfa6aa12b34ca98423c9e7a0f86,
@@ -22025,7 +21860,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5968110712406455204, guid: b9520086e6044ec428e7142211bb0ef7,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1326016482}
+      addedObject: {fileID: 1326016483}
     - targetCorrespondingSourceObject: {fileID: 5968110712406455204, guid: b9520086e6044ec428e7142211bb0ef7,
         type: 3}
       insertIndex: -1
@@ -22033,12 +21868,43 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5968110712406455204, guid: b9520086e6044ec428e7142211bb0ef7,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1326016480}
-    - targetCorrespondingSourceObject: {fileID: 5968110712406455204, guid: b9520086e6044ec428e7142211bb0ef7,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1326016483}
+      addedObject: {fileID: 1959707538}
   m_SourcePrefab: {fileID: 100100000, guid: b9520086e6044ec428e7142211bb0ef7, type: 3}
+--- !u!4 &1959707537 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4923134873661679225, guid: b9520086e6044ec428e7142211bb0ef7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1959707536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1959707538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326016475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5748f457ec8f423cbc740b19050b717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _door: {fileID: 1959707537}
+  _openingSpeed: 90
+  _openAngle: -50
+  _closedAngle: 0
+  _isOpenedByDefault: 0
+  carDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  carDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  carDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1959741566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2700874171910072504, guid: 330efb0e9eed825408809c121441b8a5,
@@ -23672,12 +23538,20 @@ MonoBehaviour:
   _door: {fileID: 2077534966}
   _openingSpeed: 150
   _openAngle: -8
-  _closeAngle: 72
+  _closedAngle: 72
   _isOpenedByDefault: 1
-  _doorMovingStart: {fileID: 0}
-  _doorMovingPaused: {fileID: 0}
-  _doorClosed: {fileID: 0}
-  _doorOpened: {fileID: 0}
+  houseDoorOpened:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorClosed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  houseDoorMovingStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &2077534968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23699,6 +23573,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2.0699244, z: 0.17}
   m_Center: {x: 0.41000384, y: 1.0126133, z: 0.0000000026930354}
+--- !u!114 &2077534969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077534965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38372ca5dfd4446458521b6dde440b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &2079875850 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 18950297294741875, guid: 44cda9043b1bd444faa29de1c58f6f70,
